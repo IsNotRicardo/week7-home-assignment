@@ -44,7 +44,7 @@ public class Main {
                             System.out.println("\nInvalid date/time format. Returning to main menu.");
                             break;
                         } catch (IllegalArgumentException e) {
-                            System.out.println(e.getMessage());
+                            System.out.println("\n" + e.getMessage());
                         }
                     }
                     break;
